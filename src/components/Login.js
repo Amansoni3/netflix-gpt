@@ -5,13 +5,12 @@ import { checkValidation } from '../utils/validate'
 import { createUserLoginUser } from '../utils/services'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 
 
 
 const Login = () => {
-  const navigate = useNavigate()
+ 
   const dispatch = useDispatch()
 
   const [isSignIn, setIsSignIn] = useState(true)
@@ -50,7 +49,7 @@ const Login = () => {
       fullName.current && (fullName.current.value = ""); // Clear Full Name if it's a Sign-Up
       email.current.value = "";
       password.current.value = "";
-      navigate("/browse");
+    
     } catch (error) {
       setErrorMessage(error.message); // Display the error message
     }
