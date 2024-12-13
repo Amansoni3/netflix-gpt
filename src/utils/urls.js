@@ -4,6 +4,8 @@ export const NETFLIX_BG = 'https://assets.nflxext.com/ffe/siteui/vlv3/03ad76d1-e
 
 export const NETFLIX_USER_ICON = "https://wallpapers.com/images/high/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.webp"
 
+export const TMDB_IMAGE_URL_PATH = "https://image.tmdb.org/t/p/w500/"
+
 export const API_OPTIONS = {
     method: 'GET',
     headers: {
