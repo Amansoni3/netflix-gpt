@@ -6,6 +6,21 @@ export const NETFLIX_USER_ICON = "https://wallpapers.com/images/high/netflix-pro
 
 export const TMDB_IMAGE_URL_PATH = "https://image.tmdb.org/t/p/w500/"
 
+export const SUPPORTED_LANGUAGES =[
+    {
+        identifier:'en',
+        name:'English'
+    },
+    {
+        identifier:'hindi',
+        name:'Hindi'
+    },
+    {
+        identifier:'spanish',
+        name:'Spanish'
+    },
+]
+
 export const API_OPTIONS = {
     method: 'GET',
     headers: {
